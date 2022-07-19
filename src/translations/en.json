@@ -1,0 +1,131 @@
+{
+  "common": {
+    "emailLabel": "Email",
+    "codeLabel": "Code",
+    "phoneLabel": "Phone Number",
+    "optional": "Optional",
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Confirm Password",
+    "nameLabel": "Display Name",
+    "goBack": "Go Back",
+    "delayHint": "Will be available in {{delay}} seconds",
+    "pickImage": "Pick an Image"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again later.",
+    "form": {
+      "required": "Required",
+      "invalidEmail": "Invalid email address",
+      "fieldsDontMatch": "Does not match",
+      "tooShort": "Too Short",
+      "badPhoneNumber": "Phone number is not properly formatted"
+    }
+  },
+  "welcome": {
+    "headerTitle": "Welcome",
+    "title": "Welcome to the App!",
+    "subtitle": "Proin consequat parturient parturient senectus nec iaculis adipiscing condimentum nec facilisi et ullamcorper orci adipiscing fermentum rutrum a eget vestibulum diam iaculis morbi a eget iaculis orci praesent.",
+    "registerButton": "Create Account",
+    "loginButton": "Already have an account? Sign in"
+  },
+  "login": {
+    "headerTitle": "Login",
+    "submitButton": "Login",
+    "resetPasswordButton": "Reset Password"
+  },
+  "register": {
+    "headerTitle": "Create Account",
+    "submitButton": "Create Account",
+    "acceptAgreement": "I agree to the Terms of Service and Privacy Policy"
+  },
+  "resetPassword": {
+    "headerTitle": "Reset Password",
+    "submitButton": "Reset Password",
+    "explanation": "Please enter your email below in order to receive a reset password link",
+    "successTitle": "Done",
+    "successMessage": "You'll receive an email shortly. Follow the instructions in the message. The email may take up to 2 minutes to arrive"
+  },
+  "setupMfa": {
+    "headerTitle": "MFA Setup",
+    "explanationEmail": "Please enter your email below. You will receive a code to confirm",
+    "explanationPhone": "Please enter your phone number below. You will receive an SMS to confirm",
+    "submitButton": "Submit"
+  },
+  "verifyMfa": {
+    "headerTitle": "MFA",
+    "explanationPin": "One time code would have been sent to you if this was a live app, but it's not. Enter anything to proceed",
+    "explanationPush": "A push notification has been sent. Please check your device to approve",
+    "submitButton": "Submit",
+    "sendCodeAgain": "Resend code",
+    "sendPushAgain": "Send another push",
+    "resendSuccess": "Resent successfully"
+  },
+  "home": {
+    "headerTitle": "Home",
+    "settingsButton": "Settings",
+    "chatButton": "Chat",
+    "logoutButton": "Logout"
+  },
+  "settings": {
+    "headerTitle": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "profile": "Profile",
+    "appearance": "Appearance",
+    "logOut": "Log out"
+  },
+  "chat": {
+    "headerTitle": "Chat",
+    "empty": "No chats here yet",
+    "startChat": "Start Chat",
+    "editRoom": "Edit Room"
+  },
+  "createRoom": {
+    "headerTitle": "Create Chat Room",
+    "add": "Add",
+    "createRoom": "Create Room",
+    "errorOwnEmail": "This is your email",
+    "errorAlreadyAdded": "Already added",
+    "people": "People in chat room",
+    "roomName": "Room Name",
+    "selectPeople": "Enter email of user to add"
+  },
+  "editRoom": {
+    "headerTitle": "Edit Chat Room",
+    "add": "Add",
+    "createRoom": "Edit Room",
+    "errorOwnEmail": "This is your email",
+    "errorAlreadyAdded": "Already added",
+    "people": "People in chat room",
+    "roomName": "Room Name",
+    "selectPeople": "Enter email of user to add"
+  },
+  "changeTheme": {
+    "headerTitle": "Change Theme",
+    "darkMode": "Dark Mode",
+    "syncWithSystem": "Match System Appearance",
+    "theme": "Theme",
+    "makeen": "Makeen",
+    "oldMakeen": "Pre-2020 Makeen",
+    "purple": "Purple",
+    "green": "Green"
+  },
+  "changeLanguage": {
+    "headerTitle": "Change Language",
+    "local": "Local Languages",
+    "other": "Other Languages"
+  },
+  "profile": {
+    "choosePhoto": "Choose Photo",
+    "takePhoto": "Take Photo"
+  },
+  "permission": {
+    "camera": "camera",
+    "deniedPermission": "The {{permissionName}} permission is denied. Tap here to open settings.",
+    "featureUnavailable": "Feature unavailable",
+    "gallery": "gallery",
+    "changeSettings": "Change Settings",
+    "dontAllow": "Don't Allow",
+    "settings": "Settings"
+  }
+}

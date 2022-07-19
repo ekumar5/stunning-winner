@@ -1,0 +1,88 @@
+{
+  "common": {
+    "emailLabel": "Email",
+    "codeLabel": "Code",
+    "phoneLabel": "Numéro de téléphone",
+    "optional": "Optionnel",
+    "passwordLabel": "Mot de passe",
+    "confirmPasswordLabel": "Confirmez le mot de passe",
+    "nameLabel": "Afficher un nom",
+    "goBack": "Retourner"
+  },
+  "errors": {
+    "generic": "Quelque chose a mal tourné. Veuillez réessayer plus tard.",
+    "form": {
+      "required": "Obligatoire",
+      "invalidEmail": "Adresse e-mail invalide",
+      "fieldsDontMatch": "Ne correspond pas",
+      "tooShort": "Trop court",
+      "badPhoneNumber": "Le numéro de téléphone n'est pas correctement formaté"
+    }
+  },
+  "welcome": {
+    "headerTitle": "Bienvenue",
+    "title": "Bienvenue sur l'App!",
+    "subtitle": "Proin conséquat parturient parturient senectus nec iaculis adipiscing condimentum nec facilisi et ullamcorper orci adipiscing fermentum rutrum a eget vestibulum diam iaculis morbi a eget iaculis orci praesent.",
+    "registerButton": "Créer un compte",
+    "loginButton": "Vous avez déjà un compte? se connecter"
+  },
+  "login": {
+    "headerTitle": "S'identifier",
+    "submitButton": "S'identifier",
+    "resetPasswordButton": "réinitialiser le mot de passe"
+  },
+  "register": {
+    "headerTitle": "Créer un compte",
+    "submitButton": "Créer un compte",
+    "acceptAgreement": "J'accepte les conditions d'utilisation et la politique de confidentialité"
+  },
+  "resetPassword": {
+    "headerTitle": "réinitialiser le mot de passe",
+    "submitButton": "réinitialiser le mot de passe",
+    "explanation": "Veuillez saisir votre email ci-dessous afin de recevoir un lien de réinitialisation de mot de passe",
+    "successTitle": "Terminé",
+    "successMessage": "Vous recevrez un e-mail sous peu. Suivez les instructions du message. L'e-mail peut prendre jusqu'à 2 minutes pour arriver"
+  },
+  "setupMfa": {
+    "headerTitle": "Configuration MFA",
+    "explanationEmail": "Veuillez saisir votre email ci-dessous. Vous recevrez un code pour confirmer",
+    "explanationPhone": "Veuillez entrer votre numéro de téléphone ci-dessous. Vous recevrez un SMS pour confirmer",
+    "submitButton": "Soumettre"
+  },
+  "verifyMfa": {
+    "headerTitle": "MFA",
+    "explanationPin": "Un code temporel vous a été envoyé. Veuillez l'entrer ci-dessous",
+    "explanationPush": "Une notification push a été envoyée. Veuillez vérifier votre appareil pour approuver",
+    "submitButton": "Soumettre",
+    "sendCodeAgain": "Renvoyer le code",
+    "sendPushAgain": "Envoyez une autre poussée",
+    "resendSuccess": "Renvoyer avec succès",
+    "resendHint": "Sera disponible dans {{delay}} secondes"
+  },
+  "home": {
+    "headerTitle": "Accueil",
+    "settingsButton": "Réglages",
+    "logoutButton": "Se déconnecter"
+  },
+  "settings": {
+    "headerTitle": "Réglages",
+    "language": "Langue",
+    "theme": "Thème",
+    "profile": "Profil",
+    "appearance": "Apparence",
+    "logOut": "Se déconnecter"
+  },
+  "changeTheme": {
+    "headerTitle": "Change le thème",
+    "darkMode": "Mode sombre",
+    "theme": "Couleur accentuée",
+    "red": "Makeen pré-2020",
+    "purple": "Violet",
+    "green": "vert"
+  },
+  "changeLanguage": {
+    "headerTitle": "Changer de langue",
+    "local": "Langues locales",
+    "other": "Autres langues"
+  }
+}

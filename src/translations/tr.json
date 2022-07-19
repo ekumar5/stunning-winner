@@ -1,0 +1,88 @@
+{
+  "common": {
+    "emailLabel": "E-posta",
+    "codeLabel": "kod",
+    "phoneLabel": "Telefon numarası",
+    "optional": "İsteğe bağlı",
+    "passwordLabel": "Parola",
+    "confirmPasswordLabel": "Şifreyi Onayla",
+    "nameLabel": "Ekran adı",
+    "goBack": "Geri dön"
+  },
+  "errors": {
+    "generic": "Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyiniz.",
+    "form": {
+      "required": "gereklidir",
+      "invalidEmail": "Geçersiz e-posta adresi",
+      "fieldsDontMatch": "Eşleşmiyor",
+      "tooShort": "Çok kısa",
+      "badPhoneNumber": "Telefon numarası doğru biçimlendirilmemiş"
+    }
+  },
+  "welcome": {
+    "headerTitle": "Hoşgeldiniz",
+    "title": "App hoş geldiniz!",
+    "subtitle": "Proin sonucu parturient parturient senectus nec iaculis adipiscing condimentum nec facilisi et ullamcorper orci adipiscing fermentum rutrum a eget vestibulum diam iaculis morbi a eget iaculis orci övgü.",
+    "registerButton": "Hesap oluştur",
+    "loginButton": "Zaten hesabınız var mı? oturum aç"
+  },
+  "login": {
+    "headerTitle": "Oturum aç",
+    "submitButton": "Oturum aç",
+    "resetPasswordButton": "Şifreyi yenile"
+  },
+  "register": {
+    "headerTitle": "Hesap oluştur",
+    "submitButton": "Hesap oluştur",
+    "acceptAgreement": "Hizmet Şartları ve Gizlilik Politikasını kabul ediyorum"
+  },
+  "resetPassword": {
+    "headerTitle": "Şifreyi yenile",
+    "submitButton": "Şifreyi yenile",
+    "explanation": "Sıfırlama şifresi bağlantısı almak için lütfen e-postanızı aşağıya girin",
+    "successTitle": "Bitti",
+    "successMessage": "Kısa süre içinde bir e-posta alacaksınız. Mesajdaki talimatları izleyin. E-postanın ulaşması 2 dakika kadar sürebilir"
+  },
+  "setupMfa": {
+    "headerTitle": "MFA Kurulumu",
+    "explanationEmail": "Lütfen e-postanızı aşağıya girin. Onaylamak için bir kod alacaksınız",
+    "explanationPhone": "Lütfen aşağıya telefon numaranızı girin. Onaylamak için bir SMS alacaksınız",
+    "submitButton": "Sunmak"
+  },
+  "verifyMfa": {
+    "headerTitle": "MFA",
+    "explanationPin": "Size bir kez kod gönderildi. Lütfen aşağıya girin",
+    "explanationPush": "Bir push bildirimi gönderildi. Lütfen onaylamak için cihazınızı kontrol edin",
+    "submitButton": "Sunmak",
+    "sendCodeAgain": "Yeniden gönderme kodu",
+    "sendPushAgain": "Başka bir push gönderin",
+    "resendSuccess": "Başarıyla tekrar gönder",
+    "resendHint": "{{Delay}} saniye içinde satışa sunulacak"
+  },
+  "home": {
+    "headerTitle": "Ev",
+    "settingsButton": "Ayarlar",
+    "logoutButton": "Çıkış Yap"
+  },
+  "settings": {
+    "headerTitle": "Ayarlar",
+    "language": "Dil",
+    "theme": "Tema",
+    "profile": "Profil",
+    "appearance": "Görünüm",
+    "logOut": "Çıkış Yap"
+  },
+  "changeTheme": {
+    "headerTitle": "Temayı değiştir",
+    "darkMode": "Karanlık Mod",
+    "theme": "Vurgu Rengi",
+    "red": "2020 Öncesi Hazır",
+    "purple": "Mor",
+    "green": "Yeşil"
+  },
+  "changeLanguage": {
+    "headerTitle": "Dili değiştir",
+    "local": "Yerel Diller",
+    "other": "Diğer diller"
+  }
+}

@@ -1,0 +1,51 @@
+diff --git a/node_modules/react-native-config/ios/ReactNativeConfig/GeneratedDotEnv.m b/node_modules/react-native-config/ios/ReactNativeConfig/GeneratedDotEnv.m
+new file mode 100644
+index 0000000..3e5858a
+--- /dev/null
++++ b/node_modules/react-native-config/ios/ReactNativeConfig/GeneratedDotEnv.m
+@@ -0,0 +1 @@
++  #define DOT_ENV @{ @"API_URL":@"https://5eb9dc21-c945-414e-a69a-3b421d015fb0.mock.pstmn.io/",@"STORYBOOK":@"false" };
+diff --git a/node_modules/react-native-config/react-native-config.podspec b/node_modules/react-native-config/react-native-config.podspec
+index 54985dd..9729c1f 100644
+--- a/node_modules/react-native-config/react-native-config.podspec
++++ b/node_modules/react-native-config/react-native-config.podspec
+@@ -20,12 +20,13 @@ Pod::Spec.new do |s|
+   s.script_phase = {
+     name: 'Config codegen',
+     script: %(
+-set -ex
+-HOST_PATH="$SRCROOT/../.."
+-"${PODS_TARGET_SRCROOT}/ios/ReactNativeConfig/BuildDotenvConfig.rb" "$HOST_PATH" "${PODS_TARGET_SRCROOT}/ios/ReactNativeConfig"
+-),
++      set -ex
++      HOST_PATH="$SRCROOT/../.."
++      ${PODS_TARGET_SRCROOT}/ios/ReactNativeConfig/BuildDotenvConfig.rb $HOST_PATH ${PODS_TARGET_SRCROOT}/ios/ReactNativeConfig
++    ),
+     execution_position: :before_compile,
+-    input_files: ['$PODS_TARGET_SRCROOT/ios/ReactNativeConfig/BuildDotenvConfig.rb']
++    input_files: ['$PODS_TARGET_SRCROOT/ios/ReactNativeConfig/BuildDotenvConfig.rb'],
++    output_files: ['$PODS_TARGET_SRCROOT/ios/ReactNativeConfig/GeneratedDotEnv.m']
+   }
+ 
+   s.requires_arc = true
+@@ -41,13 +42,14 @@ HOST_PATH="$SRCROOT/../.."
+     # Had to duplicate the script_phase since it wasn't being passed down. Not sure why
+     ext.script_phase = {
+       name: 'Config codegen',
+-      script: %(
+-        set -ex
+-        HOST_PATH="$SRCROOT/../.."
+-        "${PODS_TARGET_SRCROOT}/ios/ReactNativeConfig/BuildDotenvConfig.rb" "$HOST_PATH" "${PODS_TARGET_SRCROOT}/ios/ReactNativeConfig"
+-        ),
++    script: %(
++      set -ex
++      HOST_PATH="$SRCROOT/../.."
++      ${PODS_TARGET_SRCROOT}/ios/ReactNativeConfig/BuildDotenvConfig.rb $HOST_PATH ${PODS_TARGET_SRCROOT}/ios/ReactNativeConfig
++    ),
+       execution_position: :before_compile,
+-      input_files: ['$PODS_TARGET_SRCROOT/ios/ReactNativeConfig/BuildDotenvConfig.rb']
++      input_files: ['$PODS_TARGET_SRCROOT/ios/ReactNativeConfig/BuildDotenvConfig.rb'],
++      output_files: ['$PODS_TARGET_SRCROOT/ios/ReactNativeConfig/GeneratedDotEnv.m']
+     }
+     ext.source_files = ['ios/**/ReactNativeConfig.{h,m}', 'ios/**/GeneratedDotEnv.m']
+   end

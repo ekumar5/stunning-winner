@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "533315192087",
+    "firebase_url": "https://makeen-boilerplate.firebaseio.com",
+    "project_id": "makeen-boilerplate",
+    "storage_bucket": "makeen-boilerplate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533315192087:android:c8b1185a6aefeea7e9e352",
+        "android_client_info": {
+          "package_name": "com.makeen.boilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533315192087-2c2encqkvanlmlrgsndc9ehe4uor8fen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo8Cm9wkXPBTHB0tuXuLp8-PemzZrIlRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533315192087-2c2encqkvanlmlrgsndc9ehe4uor8fen.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "533315192087-j482pd5euspj3t2e5gc2md60i51letrr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.makeen.boilerplate"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

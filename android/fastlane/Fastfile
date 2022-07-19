@@ -1,0 +1,25 @@
+default_platform(:android)
+apk_file = './app/build/outputs/bundle/release/app-release.aab'
+json_key_path = '#{ENV['GOOGLE_API_KEYS']}/????.json';
+
+platform :android do
+
+  desc "Submit a new Beta Build to Google Play"
+  lane :beta do
+
+    # Bump version code for uploading
+    increment_version_code    
+
+    gradle(task: "clean bundleRelease")
+    
+    sign_apk(
+      apk_path: apk_file,
+      keystore_path: "#{ENV['HOME']}/keyvault/???.jks",
+      alias: "rnBiolerplate",
+      storepass: ENV['RNBiolerplate_PASS'],
+    )
+
+    upload_to_play_store(track: 'beta', json_key: json_key_path, aab: apk_file, release_status: 'draft', skip_upload_metadata: true)
+  end
+
+end

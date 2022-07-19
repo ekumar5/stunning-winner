@@ -1,0 +1,88 @@
+{
+  "common": {
+    "emailLabel": "ईमेल",
+    "codeLabel": "कोड",
+    "phoneLabel": "फ़ोन नंबर",
+    "optional": "ऐच्छिक",
+    "passwordLabel": "कुंजिका",
+    "confirmPasswordLabel": "पासवर्ड की पुष्टि कीजिये",
+    "nameLabel": "प्रदर्शित होने वाला नाम",
+    "goBack": "वापस जाओ"
+  },
+  "errors": {
+    "generic": "कुछ गलत हो गया। बाद में पुन: प्रयास करें।",
+    "form": {
+      "required": "अपेक्षित",
+      "invalidEmail": "अमान्य ईमेल पता",
+      "fieldsDontMatch": "मिलता जुलता नहीं है",
+      "tooShort": "बहुत छोटा",
+      "badPhoneNumber": "फ़ोन नंबर को ठीक से स्वरूपित नहीं किया गया है"
+    }
+  },
+  "welcome": {
+    "headerTitle": "स्वागत हे",
+    "title": "App में आपका स्वागत है!",
+    "subtitle": "प्रोइन परिणामी पर्टुरिएंट पार्टिएंटिएंट सेनेटेकस नेक iaculis adipiscing condimentum nec फेसिलिसी एट ullamcorper orci adipiscing fermentum rutrum a eget vestibulumam iaculis morbi eget iaculis orci praesent।",
+    "registerButton": "खाता बनाएं",
+    "loginButton": "पहले से ही एक खाता है? साइन इन करें"
+  },
+  "login": {
+    "headerTitle": "लॉग इन करें",
+    "submitButton": "लॉग इन करें",
+    "resetPasswordButton": "पासवर्ड रीसेट"
+  },
+  "register": {
+    "headerTitle": "खाता बनाएं",
+    "submitButton": "खाता बनाएं",
+    "acceptAgreement": "मैं सेवा की शर्तों और गोपनीयता नीति से सहमत हूं"
+  },
+  "resetPassword": {
+    "headerTitle": "पासवर्ड रीसेट",
+    "submitButton": "पासवर्ड रीसेट",
+    "explanation": "रीसेट पासवर्ड लिंक प्राप्त करने के लिए कृपया अपना ईमेल नीचे दर्ज करें",
+    "successTitle": "किया हुआ",
+    "successMessage": "आपको शीघ्र ही एक ईमेल प्राप्त होगा। संदेश में दिए गए निर्देशों का पालन करें। ईमेल आने में 2 मिनट का समय लग सकता है"
+  },
+  "setupMfa": {
+    "headerTitle": "एमएफए सेटअप",
+    "explanationEmail": "कृपया नीचे अपनी ईमेल दर्ज करें। आपको पुष्टि करने के लिए एक कोड प्राप्त होगा",
+    "explanationPhone": "कृपया नीचे अपना फ़ोन नंबर दर्ज करें। आपको पुष्टि करने के लिए एक एसएमएस प्राप्त होगा",
+    "submitButton": "प्रस्तुत"
+  },
+  "verifyMfa": {
+    "headerTitle": "एमएफए",
+    "explanationPin": "एक बार कोड आपको भेजा गया है। कृपया इसे नीचे दर्ज करें",
+    "explanationPush": "एक पुश सूचना भेजी गई है। कृपया अनुमोदित करने के लिए अपना उपकरण जांचें",
+    "submitButton": "प्रस्तुत",
+    "sendCodeAgain": "पुन: कोड भेजे",
+    "sendPushAgain": "एक और धक्का भेजो",
+    "resendSuccess": "सफलतापूर्वक आक्रोश",
+    "resendHint": "{{देरी}} सेकंड में उपलब्ध होगा"
+  },
+  "home": {
+    "headerTitle": "घर",
+    "settingsButton": "समायोजन",
+    "logoutButton": "लॉग आउट"
+  },
+  "settings": {
+    "headerTitle": "समायोजन",
+    "language": "भाषा: हिन्दी",
+    "theme": "विषय",
+    "profile": "प्रोफ़ाइल",
+    "appearance": "दिखावट",
+    "logOut": "लॉग आउट"
+  },
+  "changeTheme": {
+    "headerTitle": "थीम बदलें",
+    "darkMode": "डार्क मोड",
+    "theme": "स्वरोंका रंग",
+    "red": "2020 से पहले बनाया गया",
+    "purple": "बैंगनी",
+    "green": "हरा"
+  },
+  "changeLanguage": {
+    "headerTitle": "भाषा बदलो",
+    "local": "स्थानीय भाषाएँ",
+    "other": "अन्य भाषाएँ"
+  }
+}

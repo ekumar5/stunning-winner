@@ -1,0 +1,88 @@
+{
+  "common": {
+    "emailLabel": "Електронна пошта",
+    "codeLabel": "Код",
+    "phoneLabel": "Номер телефону",
+    "optional": "За бажанням",
+    "passwordLabel": "Пароль",
+    "confirmPasswordLabel": "Підтвердьте пароль",
+    "nameLabel": "Відображуване ім'я",
+    "goBack": "Повертайся"
+  },
+  "errors": {
+    "generic": "Щось пішло не так. Будь-ласка спробуйте пізніше.",
+    "form": {
+      "required": "вимагається",
+      "invalidEmail": "невірна адреса електронної пошти",
+      "fieldsDontMatch": "Не підходить",
+      "tooShort": "Занадто короткий",
+      "badPhoneNumber": "Номер телефону неправильно відформатований"
+    }
+  },
+  "welcome": {
+    "headerTitle": "Ласкаво просимо",
+    "title": "Ласкаво просимо в додаток!",
+    "subtitle": "Proin posleat parturient parturient senectus nec iaculis adipiscing condimentum nec facilisi et ullamcorper orci adipiscing fermentum rutrum a eget vestibulum diam iaculis morbi a eget iaculis orci praesent.",
+    "registerButton": "Створити рахунок",
+    "loginButton": "Вже є аккаунт? Увійти"
+  },
+  "login": {
+    "headerTitle": "Вхід",
+    "submitButton": "Вхід",
+    "resetPasswordButton": "Скинути пароль"
+  },
+  "register": {
+    "headerTitle": "Створити рахунок",
+    "submitButton": "Створити рахунок",
+    "acceptAgreement": "Я погоджуюся з умовами надання послуг та політикою конфіденційності"
+  },
+  "resetPassword": {
+    "headerTitle": "Скинути пароль",
+    "submitButton": "Скинути пароль",
+    "explanation": "Будь ласка, введіть свій електронний лист нижче, щоб отримати посилання для скидання пароля",
+    "successTitle": "Зроблено",
+    "successMessage": "Незабаром ви отримаєте електронний лист. Дотримуйтесь інструкцій у повідомленні. Надходження електронної пошти може зайняти до 2 хвилин"
+  },
+  "setupMfa": {
+    "headerTitle": "Налаштування МЗС",
+    "explanationEmail": "Будь ласка, введіть свій електронний лист нижче. Ви отримаєте код для підтвердження",
+    "explanationPhone": "Будь ласка, введіть свій номер телефону нижче. Ви отримаєте SMS для підтвердження",
+    "submitButton": "Надіслати"
+  },
+  "verifyMfa": {
+    "headerTitle": "МЗС",
+    "explanationPin": "Одноразовий код вам надіслали. Будь ласка, введіть його нижче",
+    "explanationPush": "Надіслано поштове повідомлення. Перевірте свій пристрій, щоб затвердити",
+    "submitButton": "Надіслати",
+    "sendCodeAgain": "Надіслати код повторно",
+    "sendPushAgain": "Надішліть ще один поштовх",
+    "resendSuccess": "Успішно відреагуйте",
+    "resendHint": "Буде доступний через {{затримку}} секунд"
+  },
+  "home": {
+    "headerTitle": "Головна",
+    "settingsButton": "Налаштування",
+    "logoutButton": "Вийти"
+  },
+  "settings": {
+    "headerTitle": "Налаштування",
+    "language": "Мову",
+    "theme": "Тема",
+    "profile": "Профіль",
+    "appearance": "Зовнішній вигляд",
+    "logOut": "Вийти"
+  },
+  "changeTheme": {
+    "headerTitle": "Змінити тему",
+    "darkMode": "Темний режим",
+    "theme": "Колір акцентів",
+    "red": "До 2020 року Макеен",
+    "purple": "Фіолетовий",
+    "green": "Зелений"
+  },
+  "changeLanguage": {
+    "headerTitle": "Змінити мову",
+    "local": "Місцеві мови",
+    "other": "Інші мови"
+  }
+}

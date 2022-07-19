@@ -1,0 +1,88 @@
+{
+  "common": {
+    "emailLabel": "Email",
+    "codeLabel": "Código",
+    "phoneLabel": "Número de teléfono",
+    "optional": "Opcional",
+    "passwordLabel": "Contraseña",
+    "confirmPasswordLabel": "Confirmar contraseña",
+    "nameLabel": "Nombre para mostrar",
+    "goBack": "Regresa"
+  },
+  "errors": {
+    "generic": "Algo salió mal. Por favor, inténtelo de nuevo más tarde.",
+    "form": {
+      "required": "Necesario",
+      "invalidEmail": "Dirección de correo electrónico no válida",
+      "fieldsDontMatch": "No coincide",
+      "tooShort": "Demasiado corto",
+      "badPhoneNumber": "El número de teléfono no está formateado correctamente"
+    }
+  },
+  "welcome": {
+    "headerTitle": "Bienvenido",
+    "title": "Bienvenido a la aplicación!",
+    "subtitle": "Proin consequat parturient parturient senectus nec iaculis adipiscing condimentum nec facilisi et ullamcorper orci adipiscing fermentum rutrum a eget vestibulum diam iaculis morbi a eget iaculis orci praesent.",
+    "registerButton": "Crear una cuenta",
+    "loginButton": "¿Ya tienes una cuenta? Registrarse"
+  },
+  "login": {
+    "headerTitle": "Iniciar sesión",
+    "submitButton": "Iniciar sesión",
+    "resetPasswordButton": "Restablecer la contraseña"
+  },
+  "register": {
+    "headerTitle": "Crear una cuenta",
+    "submitButton": "Crear una cuenta",
+    "acceptAgreement": "Acepto los Términos de servicio y la Política de privacidad"
+  },
+  "resetPassword": {
+    "headerTitle": "Restablecer la contraseña",
+    "submitButton": "Restablecer la contraseña",
+    "explanation": "Ingrese su correo electrónico a continuación para recibir un enlace para restablecer la contraseña",
+    "successTitle": "Hecho",
+    "successMessage": "Recibirá un correo electrónico en breve. Siga las instrucciones en el mensaje. El correo electrónico puede tardar hasta 2 minutos en llegar."
+  },
+  "setupMfa": {
+    "headerTitle": "Configuración de MFA",
+    "explanationEmail": "Por favor ingrese su correo electrónico a continuación. Recibirá un código para confirmar",
+    "explanationPhone": "Por favor ingrese su número de teléfono a continuación. Recibirá un SMS para confirmar",
+    "submitButton": "Enviar"
+  },
+  "verifyMfa": {
+    "headerTitle": "AMF",
+    "explanationPin": "Se le ha enviado un código de tiempo. Por favor ingréselo abajo",
+    "explanationPush": "Se ha enviado una notificación push. Por favor revise su dispositivo para aprobar",
+    "submitButton": "Enviar",
+    "sendCodeAgain": "Reenviar codigo",
+    "sendPushAgain": "Enviar otro empujón",
+    "resendSuccess": "Resentido exitosamente",
+    "resendHint": "Estará disponible en {{delay}} segundos"
+  },
+  "home": {
+    "headerTitle": "Hogar",
+    "settingsButton": "Configuraciones",
+    "logoutButton": "Cerrar sesión"
+  },
+  "settings": {
+    "headerTitle": "Configuraciones",
+    "language": "Idioma",
+    "theme": "Tema",
+    "profile": "Perfil",
+    "appearance": "Apariencia",
+    "logOut": "Cerrar sesión"
+  },
+  "changeTheme": {
+    "headerTitle": "Cambiar de tema",
+    "darkMode": "Modo oscuro",
+    "theme": "Acentuar el color",
+    "red": "Pre-2020 Makeen",
+    "purple": "Púrpura",
+    "green": "Verde"
+  },
+  "changeLanguage": {
+    "headerTitle": "Cambiar idioma",
+    "local": "Idiomas locales",
+    "other": "Otros idiomas"
+  }
+}

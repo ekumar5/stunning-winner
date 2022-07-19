@@ -1,0 +1,88 @@
+{
+  "common": {
+    "emailLabel": "E-mail",
+    "codeLabel": "Cod",
+    "phoneLabel": "Numar de telefon",
+    "optional": "facultativ",
+    "passwordLabel": "Parola",
+    "confirmPasswordLabel": "Confirmă parola",
+    "nameLabel": "Numele afisat",
+    "goBack": "Întoarce-te"
+  },
+  "errors": {
+    "generic": "Ceva n-a mers bine. Vă rugăm să încercați din nou mai târziu.",
+    "form": {
+      "required": "Necesar",
+      "invalidEmail": "Adresa email invalida",
+      "fieldsDontMatch": "Nu se potrivește",
+      "tooShort": "Prea scurt",
+      "badPhoneNumber": "Numărul de telefon nu este formatat corespunzător"
+    }
+  },
+  "welcome": {
+    "headerTitle": "Bine ati venit",
+    "title": "Bine ați venit în aplicație!",
+    "subtitle": "Proin consecință parturient parturient senectus nec iaculis adipiscing condimentum n facilitisi et ullamcorper orci adipiscing fermentum rutrum a eget vestibulum diam iaculis morbi a eget iaculis orci praesent.",
+    "registerButton": "Creează cont",
+    "loginButton": "ai deja un cont? conectare"
+  },
+  "login": {
+    "headerTitle": "Autentificare",
+    "submitButton": "Autentificare",
+    "resetPasswordButton": "Reseteaza parola"
+  },
+  "register": {
+    "headerTitle": "Creează cont",
+    "submitButton": "Creează cont",
+    "acceptAgreement": "Sunt de acord cu Termenii de utilizare și politica de confidențialitate"
+  },
+  "resetPassword": {
+    "headerTitle": "Reseteaza parola",
+    "submitButton": "Reseteaza parola",
+    "explanation": "Vă rugăm să introduceți e-mailul dvs. mai jos pentru a primi un link de resetare a parolei",
+    "successTitle": "Terminat",
+    "successMessage": "În curând veți primi un e-mail. Urmați instrucțiunile din mesaj. E-mailul poate dura până la 2 minute"
+  },
+  "setupMfa": {
+    "headerTitle": "Configurare MFA",
+    "explanationEmail": "Vă rugăm să introduceți e-mailul dvs. mai jos. Vei primi un cod pentru confirmare",
+    "explanationPhone": "Vă rugăm să introduceți numărul de telefon de mai jos. Veți primi un SMS pentru confirmare",
+    "submitButton": "Trimite"
+  },
+  "verifyMfa": {
+    "headerTitle": "MAE",
+    "explanationPin": "Ți-a fost trimis un singur cod. Vă rugăm să-l introduceți mai jos",
+    "explanationPush": "A fost trimisă o notificare push. Vă rugăm să verificați dispozitivul pentru a aproba",
+    "submitButton": "Trimite",
+    "sendCodeAgain": "Retrimite codul",
+    "sendPushAgain": "Trimite o altă apăsare",
+    "resendSuccess": "Resentă cu succes",
+    "resendHint": "Va fi disponibil în {{întârziere}} secunde"
+  },
+  "home": {
+    "headerTitle": "Acasă",
+    "settingsButton": "Setări",
+    "logoutButton": "Deconectare"
+  },
+  "settings": {
+    "headerTitle": "Setări",
+    "language": "Limba",
+    "theme": "Temă",
+    "profile": "Profil",
+    "appearance": "Aspect",
+    "logOut": "Deconectați-vă"
+  },
+  "changeTheme": {
+    "headerTitle": "Schimbă tema",
+    "darkMode": "Mod Întunecat",
+    "theme": "Culoare de accent",
+    "red": "Pre-2020 Makeen",
+    "purple": "Violet",
+    "green": "Verde"
+  },
+  "changeLanguage": {
+    "headerTitle": "Schimbă limba",
+    "local": "Limbi locale",
+    "other": "Alte limbi"
+  }
+}
